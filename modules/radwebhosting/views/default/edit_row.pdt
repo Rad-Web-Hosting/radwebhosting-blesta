@@ -1,0 +1,47 @@
+<?php
+$this->Widget->clear();
+$this->Widget->create($this->_('radwebhosting.add_row.box_title', true));
+?>
+<div class="inner">
+    <?php
+    $this->Form->create();
+    ?>
+    <div class="title_row first">
+        <h3><?php $this->_('radwebhosting.add_row.basic_title');?></h3>
+    </div>
+    <div class="pad">
+        <ul>
+            <li>
+                <?php
+                $this->Form->label($this->_('radwebhosting.row_meta.user', true), 'user');
+                $this->Form->fieldText('user', $this->Html->ifSet($vars->user), ['id' => 'user']);
+                ?>
+            </li>
+            <li>
+                <?php
+                $this->Form->label($this->_('radwebhosting.row_meta.key', true), 'key');
+                $this->Form->fieldText('key', $this->Html->ifSet($vars->key), ['id' => 'key']);
+                ?>
+            </li>
+            <li>
+                <?php
+                $this->Form->label($this->_('radwebhosting.row_meta.endpoint', true), 'endpoint');
+                $this->Form->fieldText('endpoint', $this->Html->ifSet($vars->endpoint), ['id' => 'endpoint']);
+                ?>
+            </li>
+        </ul>
+    </div>
+
+    <div class="button_row">
+        <?php
+        $this->Form->fieldSubmit('save', $this->_('radwebhosting.add_row.add_btn', true), ['class' => 'btn btn-primary pull-right']);
+        ?>
+    </div>
+    <?php
+    $this->Form->end();
+    ?>
+</div>
+
+<?php
+    $this->Widget->end();
+?>
