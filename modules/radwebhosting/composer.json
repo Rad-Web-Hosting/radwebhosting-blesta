@@ -1,0 +1,22 @@
+{
+    "name": "ModulesGarden\\DomainsReseller\\Registrar\\radwebhosting",
+    "description": "",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "http://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "http://www.modulesgarden.com/customers/support",
+                "forum": "http://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.5.9",
+                "guzzlehttp/guzzle": "5.3.1"
+            },
+    "autoload": {
+    }
+}
