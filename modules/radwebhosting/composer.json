@@ -4,12 +4,12 @@
     "version": "1.0.0",
     "type": "project",
     "license": "EULA",
-    "homepage": "http://www.modulesgarden.com",
+    "homepage": "http://radwebhosting.com",
     "support":
             {
-                "email": "contact@modulesgarden.com",
-                "issues": "http://www.modulesgarden.com/customers/support",
-                "forum": "http://www.forum.modulesgarden.com/"
+                "email": "support@radwebhosting.com",
+                "issues": "http://radwebhosting.com/client_area/submitticket.php",
+                "forum": "http://radebhosting.com/client_area/knowledgebase.php"
             },
     "authors": [],
     "require":
