@@ -19,7 +19,7 @@ class radwebhosting extends Module
     private static $authors =
     [
         [
-            'name' => "ModulesGarden", 'url' => "http://www.modulesgarden.com/"
+            'name' => "RadWebHosting", 'url' => "https://radwebhosting.com/"
         ]
     ];
 
